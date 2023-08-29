@@ -10,7 +10,7 @@ void play(int num)
     do
     {
         tries++;
-        cout<<"\n\nEnter your guess: ";
+        cout<<"Enter your guess: ";
         cin >> guess;
         if(guess == num)
         {
