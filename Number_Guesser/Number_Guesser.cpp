@@ -6,13 +6,15 @@ using namespace std;
 
 void play(int num)
 {
-    int guess;
+    int guess,tries = 0;
     do
     {
+        tries++;
+        cout<<"\n\nEnter your guess: ";
         cin >> guess;
         if(guess == num)
         {
-            cout<<"\n\nCongrats! you guessed the number correctly.\n\n";
+            cout<<"\n\nCongrats! you guessed the number correctly in "<<tries<<" tries\n\n";
             return;
         }
         else if(guess > num)
@@ -31,6 +33,7 @@ int main()
     int num;
     string ch;
     srand(time(0));
+    cout<<"\n\nWelcome to Number Guesser\n\n";
     do
     {
         num = rand() % 100;
