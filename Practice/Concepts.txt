@@ -1,0 +1,6 @@
+Pigeonhole Principle
+Catalon Number
+Fast Power
+Sieve (Simple & Segmented)
+Inclusion-Exclusion Principle
+GCD/LCM
